@@ -34,8 +34,8 @@ class LessonAdmin(admin.ModelAdmin):
 
 admin.site.register(Course, CourseAdmin)
 admin.site.register(Lesson, LessonAdmin)
-admin.site.register(Question, QuestionAdmin)
-admin.site.register(Choice, ChoiceAdmin)
+admin.site.register(Question)
+admin.site.register(Choice)
 admin.site.register(Submission)
 admin.site.register(Instructor)
 admin.site.register(Learner)
